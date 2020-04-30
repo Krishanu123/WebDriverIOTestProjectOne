@@ -41,12 +41,12 @@ class Inventory {
     /**
      * This function clicks on the 'Dropdown' icon from 'Inventory' page
      */
-    clickDropDownIconInventory() {
+    /*clickDropDownIconInventory() {
         this.inventoryDropDownIcon.waitForDisplayed()
         this.inventoryDropDownIcon.getValue()
        // this.inventoryDropDownIcon.moveTo()  
         this.inventoryDropDownIcon.click()
-    }
+    }*
 
     /**
      * This function clicks on the second element from the 'Dropdown' icon from 'Inventory' page
