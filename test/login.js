@@ -179,12 +179,12 @@ describe ("'Inventory' page actions", function(){
         expect(browser.getUrl()).equals('https://www.saucedemo.com/inventory.html')
     })
 
-    /*it.skip ("should verify that if the 'Dropdown' icon has been selected from 'Inventory' page", () =>{
+    it.skip ("should verify that if the 'Dropdown' icon has been selected from 'Inventory' page", () =>{
         inventoryTest.clickDropDownIconInventory()
         inventoryTest.clickDropDownOptionInventory()
-        browser.pause(5000)*/
+        browser.pause(5000)
     })
-
+    
     it ("should verify that if 'ADD TO CART' button has been clicked for the first item from 'Inventory' page", () =>{
         inventoryTest.inventoryFirstProductAddToCart.waitForDisplayed()
         inventoryTest.clickAddToCartForFirstProductFromInventory()
