@@ -51,11 +51,11 @@ class Inventory {
     /**
      * This function clicks on the second element from the 'Dropdown' icon from 'Inventory' page
      */
-    clickDropDownOptionInventory() {
+    /*clickDropDownOptionInventory() {
         this.inventoryDropDownOption.waitForDisplayed()  
         this.inventoryDropDownOption.moveTo()  
         this.inventoryDropDownOption.click()        
-    }
+    }*/
 
     /**
      * This function clicks on the 'ADD TO CART' button for the first product from 'Inventory' page
