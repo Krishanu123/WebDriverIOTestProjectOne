@@ -1,11 +1,11 @@
-loginTest = require("../pages/login.page")
-credentialsData = require("../data/credentials.data")
-inventoryTest = require("../pages/inventory.page")
-cartTest = require("../pages/cart.page")
-productDetailsTest = require("../pages/productDetails.page")
-checkoutOneTest = require("../pages/checkoutOne.page") 
-checkoutTwoTest = require("../pages/checkoutTwo.page")
-checkoutCompleteTest = require("../pages/checkoutComplete.page")
+const loginTest = require("../pages/login.page")
+const credentialsData = require("../data/credentials.data")
+const inventoryTest = require("../pages/inventory.page")
+const cartTest = require("../pages/cart.page")
+const productDetailsTest = require("../pages/productDetails.page")
+const checkoutOneTest = require("../pages/checkoutOne.page") 
+const checkoutTwoTest = require("../pages/checkoutTwo.page")
+const checkoutCompleteTest = require("../pages/checkoutComplete.page")
 
 
 //*************************************** 'LOGIN PAGE' ACTIONS START ****************************************//
