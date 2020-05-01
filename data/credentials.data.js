@@ -6,7 +6,7 @@
     checkoutPagePostalOrZipCodeData : '123'
 }
 
-if (process.env.ENV === 'mainline') {
+if (process.env.ENV === 'qa') {
     credentials = {
             loginUserNameData: 'standard_user',
             loginPasswordData: 'secret_sauce',
