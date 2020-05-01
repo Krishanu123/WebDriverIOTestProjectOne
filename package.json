@@ -1,7 +1,7 @@
 {
   "name": "webdriverdemo",
   "version": "1.0.0",
-  "description": "This is a Webdriver tutorial",
+  "description": "This is a Webdriver test automation project",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio ./wdio.conf.js"
