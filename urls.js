@@ -1,6 +1,5 @@
 module.exports = {
-    mainline: 'https://www.saucedemo.com/',
-    staging: '',
-    production: ''
-
+    qa: 'https://www.saucedemo.com/',
+    dev: 'https://www.saucedemo.com/',
+    production: 'https://www.saucedemoProd.com/'
 }

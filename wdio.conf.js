@@ -1,13 +1,11 @@
 const url = require("./urls")
 const ENV = process.env.ENV
 
-if(!ENV || !['mainline', 'staging','production'].includes(ENV))
+if(!ENV || !['qa','dev','producion'].includes(ENV))
 {
     console.log('Please use the following format while running the script: ENV=mainline|staging|production')
     process.exit()
 }
-
-
 
 exports.config = {
     //
