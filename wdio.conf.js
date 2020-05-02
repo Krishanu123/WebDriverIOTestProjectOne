@@ -3,7 +3,7 @@ const ENV = process.env.ENV
 
 if(!ENV || !['qa','dev','producion'].includes(ENV))
 {
-    console.log('Please use the following format while running the script: ENV=mainline|staging|production')
+    console.log('Please use the following format while running the script: ENV=qa|dev|production')
     process.exit()
 }
 
@@ -28,6 +28,9 @@ exports.config = {
     specs: [
         './test/**/*.js'
     ],
+    suites: {
+        sanity:['./test/sanity/*.js']
+    },
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -61,7 +64,7 @@ exports.config = {
         // 5 instances get started at a time.
         maxInstances: 5,
         //
-        browserName: 'Chrome',
+        browserName: 'chrome',
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -134,8 +137,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec','dot'],
-    reporters:[['allure', {
+    reporters: ['spec','dot',['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true,

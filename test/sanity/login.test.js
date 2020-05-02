@@ -1,11 +1,11 @@
-const loginTest = require("../pages/login.page")
-const credentials = require("../data/credentials.data")
-const inventoryTest = require("../pages/inventory.page")
-const cartTest = require("../pages/cart.page")
-const productDetailsTest = require("../pages/productDetails.page")
-const checkoutOneTest = require("../pages/checkoutOne.page") 
-const checkoutTwoTest = require("../pages/checkoutTwo.page")
-const checkoutCompleteTest = require("../pages/checkoutComplete.page")
+const loginTest = require("../../pages/login.page")
+const credentials = require("../../data/credentials.data")
+const inventoryTest = require("../../pages/inventory.page")
+const cartTest = require("../../pages/cart.page")
+const productDetailsTest = require("../../pages/productDetails.page")
+const checkoutOneTest = require("../../pages/checkoutOne.page") 
+const checkoutTwoTest = require("../../pages/checkoutTwo.page")
+const checkoutCompleteTest = require("../../pages/checkoutComplete.page")
 
 
 //*************************************** 'LOGIN PAGE' ACTIONS START ****************************************//
@@ -14,6 +14,7 @@ describe ("'Login' page actions", function(){
 
     it("should verify that if user has browsed to the correct url",()=>{
         browser.url('/')
+        browser.maximizeWindow()
         expect(browser.getUrl()).equals('https://www.saucedemo.com/')
     })
 
@@ -176,12 +177,6 @@ describe ("'Inventory' page actions", function(){
         inventoryTest.inventoryBurgerIconFirstOption.waitForDisplayed()
         inventoryTest.clickBurgerIconFirstOptionInventory()
         expect(browser.getUrl()).equals('https://www.saucedemo.com/inventory.html')
-    })
-
-    it.skip ("should verify that if the 'Dropdown' icon has been selected from 'Inventory' page", () =>{
-        inventoryTest.clickDropDownIconInventory()
-        inventoryTest.clickDropDownOptionInventory()
-        browser.pause(5000)
     })
     
     it ("should verify that if 'ADD TO CART' button has been clicked for the first item from 'Inventory' page", () =>{
