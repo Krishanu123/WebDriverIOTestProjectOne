@@ -9,6 +9,7 @@ class Login {
 
     /**
      * This function enters username in the 'Username' field from 'Login' page 
+     * @param {string} text text to be entered as username
      */
     enterUserNameLoginPage(text) {
         this.loginUserName.waitForDisplayed()
@@ -17,6 +18,7 @@ class Login {
 
     /**
      * This function enters password in the 'Password' field from 'Login' page
+     *  @param {string} text text to be entered as password
      */
     enterPasswordLoginPage(text){
         this.loginPassword.waitForDisplayed()
