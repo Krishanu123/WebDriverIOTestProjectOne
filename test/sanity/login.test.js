@@ -618,7 +618,7 @@ describe ("'Checkout Two' page actions",function(){
 
 //******************************* 'CHECKOUT COMPLETE' PAGE ACTIONS START ****************************************//
 
-describe ("'Checkout Two' page actions",function(){
+describe ("'Checkout Complete' page actions",function(){
 
     it ("should verify that if 'Burger' icon is existing, displayed and displayed in viewport in 'Checkout Complete' page", () =>{
         checkoutCompleteTest.checkoutCompleteBurgerIcon.waitForDisplayed()
@@ -649,7 +649,7 @@ describe ("'Checkout Two' page actions",function(){
         assert.equal('Finish',checkoutCompleteTest.checkoutCompleteSubheader.getText())
     })
 
-    it ("should verify that if 'Footer' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Two' page", () =>{
+    it ("should verify that if 'Footer' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Complete' page", () =>{
         checkoutCompleteTest.checkoutCompleteFooter.scrollIntoView()
         checkoutCompleteTest.checkoutCompleteFooter.waitForDisplayed()
         expect(checkoutCompleteTest.checkoutCompleteFooter.isExisting()).to.be.true
@@ -658,7 +658,7 @@ describe ("'Checkout Two' page actions",function(){
         expect(checkoutCompleteTest.checkoutCompleteFooter.getText()).equals('© 2019 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy')
     })
 
-    it ("should verify that if 'Thank You Message' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Two' page", () =>{
+    it ("should verify that if 'Thank You Message' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Complete' page", () =>{
         checkoutCompleteTest.checkoutCompleteThankYouMessage.scrollIntoView()
         checkoutCompleteTest.checkoutCompleteThankYouMessage.waitForDisplayed()
         expect(checkoutCompleteTest.checkoutCompleteThankYouMessage.isExisting()).to.be.true
@@ -667,7 +667,7 @@ describe ("'Checkout Two' page actions",function(){
         expect(checkoutCompleteTest.checkoutCompleteThankYouMessage.getText()).equals('THANK YOU FOR YOUR ORDER')
     })
 
-    it ("should verify that if 'Order Detail' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Two' page", () =>{
+    it ("should verify that if 'Order Detail' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Complete' page", () =>{
         checkoutCompleteTest.checkoutCompleteOrderDetail.scrollIntoView()
         checkoutCompleteTest.checkoutCompleteOrderDetail.waitForDisplayed()
         expect(checkoutCompleteTest.checkoutCompleteOrderDetail.isExisting()).to.be.true
@@ -676,7 +676,7 @@ describe ("'Checkout Two' page actions",function(){
         expect(checkoutCompleteTest.checkoutCompleteOrderDetail.getText()).equals('Your order has been dispatched, and will arrive just as fast as the pony can get there!')
     })
 
-    it ("should verify that if 'Pony Logo' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Two' page", () =>{
+    it ("should verify that if 'Pony Logo' is existing, displayed and displayed in viewport when scrolled down in 'Checkout Complete' page", () =>{
         checkoutCompleteTest.checkoutCompletePonyLogo.scrollIntoView()
         checkoutCompleteTest.checkoutCompletePonyLogo.waitForDisplayed()
         expect(checkoutCompleteTest.checkoutCompletePonyLogo.isExisting()).to.be.true
@@ -690,7 +690,7 @@ describe ("'Checkout Two' page actions",function(){
     })
 
     it ("should verify that if the third item in 'Burger' icon from 'Checkout Complete' page has been clicked", () =>{
-        checkoutCompleteTest.checkoutCompleteBurgerIconThirdOption.waitForDisplayed()
+        //checkoutCompleteTest.checkoutCompleteBurgerIconThirdOption.waitForDisplayed()
         checkoutCompleteTest.clickBurgerIconThirdOptionCheckoutComplete()
         expect(browser.getUrl()).equals('https://www.saucedemo.com/index.html')
     })

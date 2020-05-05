@@ -2,7 +2,7 @@ class CheckoutComplete{
 
     get checkoutCompleteLogo() { return $(".app_logo")}
     get checkoutCompleteBurgerIcon() { return $(".bm-burger-button")}
-    get checkoutCompleteBurgerIconThirdOption() { return $(".bm-item-list #logout_sidebar_link")}
+    get checkoutCompleteBurgerIconThirdOption() { return $("#logout_sidebar_link")}
     get checkoutCompleteCartIcon() { return $("#shopping_cart_container a")}
     get checkoutCompleteSubheader() { return $(".subheader")}
     get checkoutCompleteFooter() { return $(".footer_copy")}
@@ -30,7 +30,7 @@ class CheckoutComplete{
      * This function clicks on the third item of the 'Burger' icon from 'Checkout Complete' page
      */
     clickBurgerIconThirdOptionCheckoutComplete(){
-        this.checkoutCompleteBurgerIconThirdOption.waitForDisplayed(3000)
+        this.checkoutCompleteBurgerIconThirdOption.waitForDisplayed(5000)
         this.checkoutCompleteBurgerIconThirdOption.click()
     }
 
