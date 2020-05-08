@@ -30,7 +30,7 @@ class CheckoutComplete{
      * This function clicks on the third item of the 'Burger' icon from 'Checkout Complete' page
      */
     clickBurgerIconThirdOptionCheckoutComplete(){
-        this.checkoutCompleteBurgerIconThirdOption.waitForDisplayed(5000)
+        this.checkoutCompleteBurgerIconThirdOption.waitForDisplayed()
         this.checkoutCompleteBurgerIconThirdOption.click()
     }
 

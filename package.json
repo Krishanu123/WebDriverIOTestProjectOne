@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/wdio ./wdio.conf.js ",
     "sanity": "./node_modules/.bin/wdio ./wdio.conf.js --suite sanity",
-    "result":"allure generate --clean && allure open"
+    "result": "allure generate --clean && allure open"
   },
   "author": "Krishanu Chowdhury",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "@wdio/spec-reporter": "^6.0.14",
     "@wdio/sync": "^6.0.15",
     "chai": "^4.2.0",
-    "chai-webdriverio": "^1.0.0"
+    "chai-webdriverio": "^1.0.0",
+    "wdio-chromedriver-service": "^6.0.3"
   }
 }

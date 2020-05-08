@@ -687,6 +687,7 @@ describe ("'Checkout Complete' page actions",function(){
     it ("should verify that if 'Burger' icon from 'Checkout Complete' page has been clicked", () =>{
         checkoutCompleteTest.clickBurgerIconCheckoutComplete()
         expect(checkoutCompleteTest.returnBurgerIconThirdOptionCheckoutComplete()).equals('Logout')
+        browser.pause(1000)
     })
 
     it ("should verify that if the third item in 'Burger' icon from 'Checkout Complete' page has been clicked", () =>{
