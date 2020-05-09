@@ -27,7 +27,7 @@ class Inventory {
      * This function clicks on the first item of the 'Burger' icon from 'Inventory' page
      */
     clickBurgerIconFirstOptionInventory(){
-        this.inventoryBurgerIconFirstOption.waitForDisplayed()
+        this.inventoryBurgerIconFirstOption.waitForDisplayed(3000)
         this.inventoryBurgerIconFirstOption.click()
     }
 
