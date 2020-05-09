@@ -14,6 +14,7 @@ describe ("'Login' page actions", function(){
 
     it("should verify that if user has browsed to the correct url",()=>{
         browser.url('/')
+        browser.maximizeWindow()
         expect(browser.getUrl()).equals('https://www.saucedemo.com/')
     })
 
