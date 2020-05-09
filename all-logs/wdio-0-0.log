@@ -1,0 +1,343 @@
+2020-05-08T22:46:56.444Z INFO @wdio/local-runner: Run worker command: run
+2020-05-08T22:46:56.470Z INFO webdriverio: Initiate new session using the ./protocol-stub protocol
+2020-05-08T22:46:57.309Z ERROR @wdio/utils:initialiseServices: Error: Couldn't initialise "wdio-chromedriver-service".
+Error: Cannot find module 'chromedriver'
+Require stack:
+- D:\Projects\WebdriverDemo\node_modules\wdio-chromedriver-service\build\launcher.js
+- D:\Projects\WebdriverDemo\node_modules\wdio-chromedriver-service\build\index.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\utils.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialisePlugin.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\index.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\runner\build\index.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\local-runner\build\run.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (D:\Projects\WebdriverDemo\node_modules\wdio-chromedriver-service\build\launcher.js:10:44)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at safeRequire (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\utils.js:145:11)
+    at initialisePlugin (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialisePlugin.js:26:41)
+    at initialiseServices (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialiseServices.js:34:51)
+    at initialiseWorkerService (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialiseServices.js:82:22)
+    at Runner.run (D:\Projects\WebdriverDemo\node_modules\@wdio\runner\build\index.js:93:40)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+2020-05-08T22:46:58.338Z INFO webdriverio: Initiate new session using the devtools protocol
+2020-05-08T22:46:58.339Z INFO devtools: Launch Google Chrome with flags: --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2020-05-08T22:46:59.381Z INFO devtools: Connect Puppeteer with browser on port 53635
+2020-05-08T22:47:00.510Z INFO devtools: COMMAND navigateTo("https://www.saucedemo.com/")
+2020-05-08T22:47:05.272Z INFO devtools: RESULT null
+2020-05-08T22:47:05.282Z INFO devtools: COMMAND findElement("css selector", ".login_logo")
+2020-05-08T22:47:05.291Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2020-05-08T22:47:05.305Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.314Z INFO devtools: RESULT true
+2020-05-08T22:47:05.317Z INFO devtools: COMMAND findElement("css selector", ".login_logo")
+2020-05-08T22:47:05.319Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2020-05-08T22:47:05.328Z INFO devtools: COMMAND findElements("css selector", ".login_logo")
+2020-05-08T22:47:05.332Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' } ]
+2020-05-08T22:47:05.338Z INFO devtools: COMMAND findElement("css selector", ".login_logo")
+2020-05-08T22:47:05.339Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+2020-05-08T22:47:05.344Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.350Z INFO devtools: RESULT true
+2020-05-08T22:47:05.352Z INFO devtools: COMMAND findElement("css selector", ".login_logo")
+2020-05-08T22:47:05.353Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+2020-05-08T22:47:05.368Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.375Z INFO devtools: RESULT true
+2020-05-08T22:47:05.378Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.382Z INFO devtools: RESULT true
+2020-05-08T22:47:05.386Z INFO devtools: COMMAND findElement("css selector", ".bot_column")
+2020-05-08T22:47:05.387Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2020-05-08T22:47:05.392Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.397Z INFO devtools: RESULT true
+2020-05-08T22:47:05.399Z INFO devtools: COMMAND findElement("css selector", ".bot_column")
+2020-05-08T22:47:05.400Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' }
+2020-05-08T22:47:05.405Z INFO devtools: COMMAND findElements("css selector", ".bot_column")
+2020-05-08T22:47:05.408Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' } ]
+2020-05-08T22:47:05.416Z INFO devtools: COMMAND findElement("css selector", ".bot_column")
+2020-05-08T22:47:05.417Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-9' }
+2020-05-08T22:47:05.422Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.426Z INFO devtools: RESULT true
+2020-05-08T22:47:05.428Z INFO devtools: COMMAND findElement("css selector", ".bot_column")
+2020-05-08T22:47:05.429Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-10' }
+2020-05-08T22:47:05.435Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.439Z INFO devtools: RESULT true
+2020-05-08T22:47:05.441Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.444Z INFO devtools: RESULT true
+2020-05-08T22:47:05.448Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.449Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-11' }
+2020-05-08T22:47:05.454Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.459Z INFO devtools: RESULT true
+2020-05-08T22:47:05.461Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.462Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-12' }
+2020-05-08T22:47:05.467Z INFO devtools: COMMAND findElements("css selector", "#user-name")
+2020-05-08T22:47:05.470Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-13' } ]
+2020-05-08T22:47:05.475Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.477Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-14' }
+2020-05-08T22:47:05.481Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.485Z INFO devtools: RESULT true
+2020-05-08T22:47:05.487Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.488Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-15' }
+2020-05-08T22:47:05.493Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.497Z INFO devtools: RESULT true
+2020-05-08T22:47:05.499Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.503Z INFO devtools: RESULT true
+2020-05-08T22:47:05.507Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.508Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-16' }
+2020-05-08T22:47:05.514Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.517Z INFO devtools: RESULT true
+2020-05-08T22:47:05.519Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.520Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-17' }
+2020-05-08T22:47:05.527Z INFO devtools: COMMAND findElements("css selector", "#password")
+2020-05-08T22:47:05.529Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-18' } ]
+2020-05-08T22:47:05.536Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.537Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-19' }
+2020-05-08T22:47:05.544Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.547Z INFO devtools: RESULT true
+2020-05-08T22:47:05.549Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.550Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-20' }
+2020-05-08T22:47:05.554Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.558Z INFO devtools: RESULT true
+2020-05-08T22:47:05.560Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.565Z INFO devtools: RESULT true
+2020-05-08T22:47:05.569Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.570Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-21' }
+2020-05-08T22:47:05.573Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.576Z INFO devtools: RESULT true
+2020-05-08T22:47:05.578Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.579Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-22' }
+2020-05-08T22:47:05.583Z INFO devtools: COMMAND findElements("css selector", ".btn_action")
+2020-05-08T22:47:05.586Z INFO devtools: RESULT [ { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-23' } ]
+2020-05-08T22:47:05.591Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.592Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-24' }
+2020-05-08T22:47:05.595Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.598Z INFO devtools: RESULT true
+2020-05-08T22:47:05.600Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.601Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-25' }
+2020-05-08T22:47:05.604Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.608Z INFO devtools: RESULT true
+2020-05-08T22:47:05.610Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.613Z INFO devtools: RESULT true
+2020-05-08T22:47:05.615Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.616Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-26' }
+2020-05-08T22:47:05.620Z INFO devtools: COMMAND getElementProperty("ELEMENT-26", "value")
+2020-05-08T22:47:05.625Z INFO devtools: RESULT 
+2020-05-08T22:47:05.628Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.629Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-27' }
+2020-05-08T22:47:05.633Z INFO devtools: COMMAND getElementProperty("ELEMENT-27", "value")
+2020-05-08T22:47:05.635Z INFO devtools: RESULT 
+2020-05-08T22:47:05.637Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.638Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-28' }
+2020-05-08T22:47:05.641Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.644Z INFO devtools: RESULT true
+2020-05-08T22:47:05.646Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.646Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-29' }
+2020-05-08T22:47:05.649Z INFO devtools: COMMAND elementClick("ELEMENT-29")
+2020-05-08T22:47:05.676Z INFO devtools: RESULT null
+2020-05-08T22:47:05.687Z INFO devtools: COMMAND findElement("css selector", ".login-box")
+2020-05-08T22:47:05.693Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-30' }
+2020-05-08T22:47:05.695Z INFO devtools: COMMAND getElementText("ELEMENT-30")
+2020-05-08T22:47:05.698Z INFO devtools: RESULT Epic sadface: Username is required
+2020-05-08T22:47:05.701Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.702Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-31' }
+2020-05-08T22:47:05.705Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.710Z INFO devtools: RESULT true
+2020-05-08T22:47:05.714Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.718Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-32' }
+2020-05-08T22:47:05.728Z INFO devtools: COMMAND elementSendKeys("ELEMENT-32", "standard_user")
+2020-05-08T22:47:05.852Z INFO devtools: RESULT null
+2020-05-08T22:47:05.860Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.861Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-33' }
+2020-05-08T22:47:05.864Z INFO devtools: COMMAND getElementProperty("ELEMENT-33", "value")
+2020-05-08T22:47:05.867Z INFO devtools: RESULT standard_user
+2020-05-08T22:47:05.869Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.870Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-34' }
+2020-05-08T22:47:05.872Z INFO devtools: COMMAND getElementProperty("ELEMENT-34", "value")
+2020-05-08T22:47:05.875Z INFO devtools: RESULT 
+2020-05-08T22:47:05.877Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.878Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-35' }
+2020-05-08T22:47:05.880Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.883Z INFO devtools: RESULT true
+2020-05-08T22:47:05.885Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:05.886Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-36' }
+2020-05-08T22:47:05.889Z INFO devtools: COMMAND elementClick("ELEMENT-36")
+2020-05-08T22:47:05.899Z INFO devtools: RESULT null
+2020-05-08T22:47:05.901Z INFO devtools: COMMAND findElement("css selector", ".login-box")
+2020-05-08T22:47:05.902Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-37' }
+2020-05-08T22:47:05.905Z INFO devtools: COMMAND getElementText("ELEMENT-37")
+2020-05-08T22:47:05.910Z INFO devtools: RESULT Epic sadface: Password is required
+2020-05-08T22:47:05.913Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.914Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-38' }
+2020-05-08T22:47:05.917Z INFO devtools: COMMAND elementClear("ELEMENT-38")
+2020-05-08T22:47:05.920Z INFO devtools: RESULT null
+2020-05-08T22:47:05.921Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.922Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-39' }
+2020-05-08T22:47:05.928Z INFO devtools: COMMAND elementClear("ELEMENT-39")
+2020-05-08T22:47:05.931Z INFO devtools: RESULT null
+2020-05-08T22:47:05.932Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.933Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-40' }
+2020-05-08T22:47:05.938Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.942Z INFO devtools: RESULT true
+2020-05-08T22:47:05.943Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.944Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-41' }
+2020-05-08T22:47:05.947Z INFO devtools: COMMAND elementSendKeys("ELEMENT-41", "<Screenshot[base64]>")
+2020-05-08T22:47:05.967Z INFO devtools: RESULT null
+2020-05-08T22:47:05.968Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:05.970Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-42' }
+2020-05-08T22:47:05.972Z INFO devtools: COMMAND getElementProperty("ELEMENT-42", "value")
+2020-05-08T22:47:05.978Z INFO devtools: RESULT test
+2020-05-08T22:47:05.979Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.980Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-43' }
+2020-05-08T22:47:05.983Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:05.986Z INFO devtools: RESULT true
+2020-05-08T22:47:05.988Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:05.989Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-44' }
+2020-05-08T22:47:05.993Z INFO devtools: COMMAND elementSendKeys("ELEMENT-44", "<Screenshot[base64]>")
+2020-05-08T22:47:06.015Z INFO devtools: RESULT null
+2020-05-08T22:47:06.017Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.018Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-45' }
+2020-05-08T22:47:06.020Z INFO devtools: COMMAND getElementProperty("ELEMENT-45", "value")
+2020-05-08T22:47:06.023Z INFO devtools: RESULT test
+2020-05-08T22:47:06.027Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.031Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-46' }
+2020-05-08T22:47:06.034Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.037Z INFO devtools: RESULT true
+2020-05-08T22:47:06.039Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.040Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-47' }
+2020-05-08T22:47:06.044Z INFO devtools: COMMAND elementClick("ELEMENT-47")
+2020-05-08T22:47:06.053Z INFO devtools: RESULT null
+2020-05-08T22:47:06.062Z INFO devtools: COMMAND findElement("css selector", ".login-box")
+2020-05-08T22:47:06.063Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-48' }
+2020-05-08T22:47:06.070Z INFO devtools: COMMAND getElementText("ELEMENT-48")
+2020-05-08T22:47:06.072Z INFO devtools: RESULT Epic sadface: Username and password do not match any user in this service
+2020-05-08T22:47:06.080Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.081Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-49' }
+2020-05-08T22:47:06.084Z INFO devtools: COMMAND elementClear("ELEMENT-49")
+2020-05-08T22:47:06.087Z INFO devtools: RESULT null
+2020-05-08T22:47:06.089Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.090Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-50' }
+2020-05-08T22:47:06.096Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.099Z INFO devtools: RESULT true
+2020-05-08T22:47:06.100Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.101Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-51' }
+2020-05-08T22:47:06.104Z INFO devtools: COMMAND elementSendKeys("ELEMENT-51", "<Screenshot[base64]>")
+2020-05-08T22:47:06.129Z INFO devtools: RESULT null
+2020-05-08T22:47:06.132Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.133Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-52' }
+2020-05-08T22:47:06.136Z INFO devtools: COMMAND getElementProperty("ELEMENT-52", "value")
+2020-05-08T22:47:06.138Z INFO devtools: RESULT test
+2020-05-08T22:47:06.139Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.140Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-53' }
+2020-05-08T22:47:06.146Z INFO devtools: COMMAND elementClear("ELEMENT-53")
+2020-05-08T22:47:06.150Z INFO devtools: RESULT null
+2020-05-08T22:47:06.152Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.153Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-54' }
+2020-05-08T22:47:06.156Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.162Z INFO devtools: RESULT true
+2020-05-08T22:47:06.163Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.164Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-55' }
+2020-05-08T22:47:06.168Z INFO devtools: COMMAND elementSendKeys("ELEMENT-55", "secret_sauce")
+2020-05-08T22:47:06.230Z INFO devtools: RESULT null
+2020-05-08T22:47:06.231Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.232Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-56' }
+2020-05-08T22:47:06.236Z INFO devtools: COMMAND getElementProperty("ELEMENT-56", "value")
+2020-05-08T22:47:06.238Z INFO devtools: RESULT secret_sauce
+2020-05-08T22:47:06.240Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.241Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-57' }
+2020-05-08T22:47:06.248Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.251Z INFO devtools: RESULT true
+2020-05-08T22:47:06.253Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.253Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-58' }
+2020-05-08T22:47:06.256Z INFO devtools: COMMAND elementClick("ELEMENT-58")
+2020-05-08T22:47:06.266Z INFO devtools: RESULT null
+2020-05-08T22:47:06.267Z INFO devtools: COMMAND findElement("css selector", ".login-box")
+2020-05-08T22:47:06.268Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-59' }
+2020-05-08T22:47:06.271Z INFO devtools: COMMAND getElementText("ELEMENT-59")
+2020-05-08T22:47:06.273Z INFO devtools: RESULT Epic sadface: Username and password do not match any user in this service
+2020-05-08T22:47:06.279Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.280Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-60' }
+2020-05-08T22:47:06.282Z INFO devtools: COMMAND elementClear("ELEMENT-60")
+2020-05-08T22:47:06.285Z INFO devtools: RESULT null
+2020-05-08T22:47:06.286Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.287Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-61' }
+2020-05-08T22:47:06.290Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.297Z INFO devtools: RESULT true
+2020-05-08T22:47:06.298Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.299Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-62' }
+2020-05-08T22:47:06.303Z INFO devtools: COMMAND elementSendKeys("ELEMENT-62", "standard_user")
+2020-05-08T22:47:06.362Z INFO devtools: RESULT null
+2020-05-08T22:47:06.364Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.365Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-63' }
+2020-05-08T22:47:06.368Z INFO devtools: COMMAND getElementProperty("ELEMENT-63", "value")
+2020-05-08T22:47:06.370Z INFO devtools: RESULT standard_user
+2020-05-08T22:47:06.371Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.372Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-64' }
+2020-05-08T22:47:06.376Z INFO devtools: COMMAND elementClear("ELEMENT-64")
+2020-05-08T22:47:06.379Z INFO devtools: RESULT null
+2020-05-08T22:47:06.382Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.383Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-65' }
+2020-05-08T22:47:06.389Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.393Z INFO devtools: RESULT true
+2020-05-08T22:47:06.394Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.395Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-66' }
+2020-05-08T22:47:06.399Z INFO devtools: COMMAND elementSendKeys("ELEMENT-66", "<Screenshot[base64]>")
+2020-05-08T22:47:06.421Z INFO devtools: RESULT null
+2020-05-08T22:47:06.422Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.423Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-67' }
+2020-05-08T22:47:06.429Z INFO devtools: COMMAND getElementProperty("ELEMENT-67", "value")
+2020-05-08T22:47:06.431Z INFO devtools: RESULT test
+2020-05-08T22:47:06.433Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.434Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-68' }
+2020-05-08T22:47:06.437Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.441Z INFO devtools: RESULT true
+2020-05-08T22:47:06.445Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.446Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-69' }
+2020-05-08T22:47:06.448Z INFO devtools: COMMAND elementClick("ELEMENT-69")
+2020-05-08T22:47:06.456Z INFO devtools: RESULT null
+2020-05-08T22:47:06.457Z INFO devtools: COMMAND findElement("css selector", ".login-box")
+2020-05-08T22:47:06.458Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-70' }
+2020-05-08T22:47:06.463Z INFO devtools: COMMAND getElementText("ELEMENT-70")
+2020-05-08T22:47:06.465Z INFO devtools: RESULT Epic sadface: Username and password do not match any user in this service
+2020-05-08T22:47:06.468Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.469Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-71' }
+2020-05-08T22:47:06.472Z INFO devtools: COMMAND elementClear("ELEMENT-71")
+2020-05-08T22:47:06.474Z INFO devtools: RESULT null
+2020-05-08T22:47:06.480Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.481Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-72' }
+2020-05-08T22:47:06.484Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.487Z INFO devtools: RESULT true
+2020-05-08T22:47:06.488Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.489Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-73' }
+2020-05-08T22:47:06.495Z INFO devtools: COMMAND elementSendKeys("ELEMENT-73", "standard_user")
+2020-05-08T22:47:06.556Z INFO devtools: RESULT null
+2020-05-08T22:47:06.559Z INFO devtools: COMMAND findElement("css selector", "#user-name")
+2020-05-08T22:47:06.561Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-74' }
+2020-05-08T22:47:06.565Z INFO devtools: COMMAND getElementProperty("ELEMENT-74", "value")
+2020-05-08T22:47:06.568Z INFO devtools: RESULT standard_user
+2020-05-08T22:47:06.570Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.571Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-75' }
+2020-05-08T22:47:06.573Z INFO devtools: COMMAND elementClear("ELEMENT-75")
+2020-05-08T22:47:06.577Z INFO devtools: RESULT null
+2020-05-08T22:47:06.581Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.583Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-76' }
+2020-05-08T22:47:06.585Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.588Z INFO devtools: RESULT true
+2020-05-08T22:47:06.590Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.591Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-77' }
+2020-05-08T22:47:06.595Z INFO devtools: COMMAND elementSendKeys("ELEMENT-77", "secret_sauce")
+2020-05-08T22:47:06.643Z INFO devtools: RESULT null
+2020-05-08T22:47:06.647Z INFO devtools: COMMAND findElement("css selector", "#password")
+2020-05-08T22:47:06.648Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-78' }
+2020-05-08T22:47:06.651Z INFO devtools: COMMAND getElementProperty("ELEMENT-78", "value")
+2020-05-08T22:47:06.653Z INFO devtools: RESULT secret_sauce
+2020-05-08T22:47:06.654Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.655Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-79' }
+2020-05-08T22:47:06.658Z INFO devtools: COMMAND executeScript(<fn>, <object>)
+2020-05-08T22:47:06.662Z INFO devtools: RESULT true
+2020-05-08T22:47:06.663Z INFO devtools: COMMAND findElement("css selector", ".btn_action")
+2020-05-08T22:47:06.665Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-80' }
+2020-05-08T22:47:06.667Z INFO devtools: COMMAND elementClick("ELEMENT-80")
+2020-05-08T22:47:06.686Z INFO devtools: RESULT null

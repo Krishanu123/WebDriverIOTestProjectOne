@@ -1,0 +1,54 @@
+2020-05-08T22:46:55.176Z ERROR @wdio/utils:initialiseServices: Error: Couldn't initialise "wdio-chromedriver-service".
+Error: Cannot find module 'chromedriver'
+Require stack:
+- D:\Projects\WebdriverDemo\node_modules\wdio-chromedriver-service\build\launcher.js
+- D:\Projects\WebdriverDemo\node_modules\wdio-chromedriver-service\build\index.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\utils.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialisePlugin.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\index.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\cli\build\launcher.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\cli\build\index.js
+- D:\Projects\WebdriverDemo\node_modules\@wdio\cli\bin\wdio.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:982:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:864:27)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (D:\Projects\WebdriverDemo\node_modules\wdio-chromedriver-service\build\launcher.js:10:44)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Module.require (internal/modules/cjs/loader.js:1044:19)
+    at safeRequire (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\utils.js:145:11)
+    at initialisePlugin (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialisePlugin.js:26:41)
+    at initialiseServices (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialiseServices.js:34:51)
+    at initialiseLauncherService (D:\Projects\WebdriverDemo\node_modules\@wdio\utils\build\initialiseServices.js:50:22)
+    at Launcher.run (D:\Projects\WebdriverDemo\node_modules\@wdio\cli\build\launcher.js:73:48)
+    at launch (D:\Projects\WebdriverDemo\node_modules\@wdio\cli\build\commands\run.js:138:19)
+    at handler (D:\Projects\WebdriverDemo\node_modules\@wdio\cli\build\commands\run.js:171:12)
+    at Object.run (D:\Projects\WebdriverDemo\node_modules\@wdio\cli\build\index.js:47:29)
+    at Object.<anonymous> (D:\Projects\WebdriverDemo\node_modules\@wdio\cli\bin\wdio.js:11:21)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+2020-05-08T22:46:55.180Z INFO @wdio/cli:launcher: Run onPrepare hook
+2020-05-08T22:46:55.182Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2020-05-08T22:46:55.189Z INFO @wdio/local-runner: Start worker 0-0 with arg: ./wdio.conf.js,--suite,sanity
+2020-05-08T22:47:12.894Z INFO @wdio/local-runner: Shutting down spawned worker
+2020-05-08T22:47:13.147Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:13.398Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:13.648Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:13.898Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:14.149Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:14.399Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:14.649Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:14.899Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:15.153Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:15.403Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:15.655Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:15.905Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:16.156Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:16.407Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:16.656Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:16.917Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:17.168Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:17.421Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
+2020-05-08T22:47:17.672Z INFO @wdio/local-runner: Waiting for 1 to shut down gracefully
