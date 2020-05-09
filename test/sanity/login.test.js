@@ -356,6 +356,7 @@ describe ("'Cart page' actions",function(){
     })
 
     it ("should verify that the third added item from 'Innventory' page is in 'Cart' page", () =>{
+        cartTest.cartPageThirdProductName.scrollIntoView()
         cartTest.cartPageThirdProductName.waitForDisplayed()
         expect(cartTest.cartPageThirdProductName.isExisting()).to.be.true
         expect(cartTest.cartPageThirdProductName.isDisplayed()).to.be.true
